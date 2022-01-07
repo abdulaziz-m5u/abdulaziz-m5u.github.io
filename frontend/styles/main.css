@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap");
+:root {
+  --main-color: #378566;
+  --main-color-alt: #facd52;
+}
+
+.main-color {
+  background-color: var(--main-color);
+}
+.main-color-alt {
+  background-color: var(--main-color-alt);
+}
+
+body {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-secondary {
+  color: #534b4b !important;
+}
+
+.navbar-nav a {
+  margin-right: 1.5rem;
+}
+
+.hero {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 30vh);
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  margin-top: -10px;
+}
+
+.hero h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #facd52;
+}
+.hero p {
+  color: #534b4b;
+  font-weight: 600;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.button {
+  width: 218px;
+  height: 60px;
+  border-radius: 50px;
+  font-size: 1.4rem;
+  background-color: #378566;
+  color: white;
+  box-shadow: 0 2px 9px 0 #378566;
+  transition: 0.3s;
+}
+
+.button:hover {
+  color: white;
+  transform: translateY(-0.45rem);
+}
+
+.hero a {
+  width: 218px;
+  height: 60px;
+  border-radius: 50px;
+  font-size: 1.4rem;
+  background-color: #378566;
+  color: white;
+  box-shadow: 0 2px 9px 0 #378566;
+}
+
+.hero a:hover {
+  color: #fff;
+}
+
+.hero h3 span {
+  font-weight: bold;
+  color: #378566;
+}
+
+.portfolio {
+  margin-top: 150px;
+}
+
+.portfolio h2 {
+  font-family: "Playfair Display", serif;
+  position: relative;
+}
+
+.portfolio .portfolio-skills span {
+  padding: 0.4rem 1rem;
+  margin: 0 1rem;
+  border: 1px solid #378566;
+  border-radius: 60px;
+  color: #378566;
+  font-size: 0.7rem;
+  transition: 0.6s;
+}
+
+.portfolio .portfolio-skills span:hover {
+  color: #fff;
+  background-color: #378566;
+}
+
+.portfolio .portfolio-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.portfolio .portfolio-card a {
+  color: #378566;
+}
+
+.portfolio .portfolio-card a:hover {
+  color: #facd52;
+}
+
+.portfolio .portfolio-card i {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.portfolio .portfolio-card i.icon-eye {
+  font-size: 1.6rem;
+}
+
+footer p {
+  font-size: 0.68rem;
+}
+
+footer .footer-link i {
+  font-size: 1.4rem;
+}
+
+footer .footer-link {
+  text-decoration: none !important;
+  color: #378566;
+}
+footer .footer-link:hover {
+  color: #facd52;
+}
+
+@media screen and (min-width: 769px) {
+  .hero {
+    height: 100vh;
+  }
+}
